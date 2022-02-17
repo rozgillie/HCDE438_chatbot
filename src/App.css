@@ -1,0 +1,92 @@
+.App {
+  background: #846A6A;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  height: 4rem;
+  border-bottom: 2px solid #EEF0F2;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.logo {
+  background: url("noun-chating-4530474.png");
+  height: 3.5rem;
+  width: 3.5rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid #353B3C;
+}
+.title {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #EEF0F2;
+  font-weight: bold;
+}
+.footer {
+  height: 8rem;
+  width: 100%;
+  border-top: 2px solid #EEF0F2;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+.text-input {
+  width: 100%;
+  border: 1px solid #EEF0F2;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background: #353B3C;
+  color: white;
+}
+.text {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  overflow: auto;
+  padding: 1rem;
+}
+.message {
+  color: #EEF0F2;
+  background:#353B3C;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+  overflow-wrap: break-word;
+}
+
+.text-input>input {
+  width:calc(100%-50px);
+}
+
+.message-user {
+  position: absolute;
+  left: 0;
+  top: -0.8rem;
+  font-size: 0.5rem;
+}
+
+.name-picker {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.name-picker svg {
+  stroke: white;
+  cursor: pointer;
+}
+.name-picker-name {
+  color: white;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
